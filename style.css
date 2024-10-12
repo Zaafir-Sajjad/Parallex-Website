@@ -1,0 +1,80 @@
+html ,body{
+    height: 100%;
+    margin: 0;
+    font-size: 19px;
+    font-weight: 350;
+    color: black;
+}
+
+.img1{
+    background-image: url(image1.jpg);
+    min-height: 100%;
+}
+
+.img2{
+    background-image: url(image.jpeg);
+    min-height: 400px;
+}
+
+.img3{
+    background-image: url(image2.jpg);
+    min-height: 400px;
+}
+
+.img4{
+    background-image: url(image3.jpg);
+    min-height: 100%;
+}
+
+.text{
+    position: absolute;
+    font-size: 28px;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 5px;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.text-bg{
+    background-color: rgb(26, 24, 24);
+    padding: 20px;
+}
+
+#text-1bg{
+    background-color: rgb(26, 24, 24);
+    padding: 20px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sec{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.sec-light{
+    background-color: white;
+    color: rgb(101, 97, 97)
+}
+
+.sec-dark{
+    background-color: rgb(75, 69, 69);
+    color: hsl(208, 100%, 97%);
+}
+
+.sec-idk{
+    background-color: rgb(144, 136, 136);
+    color: rgb(0, 0, 0);
+}
